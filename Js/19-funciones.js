@@ -6,7 +6,7 @@
 
 
 // Definir la función
-function calculadora(numero1, numero2){
+function calculadora(numero1, numero2, mostrar = false){
   let suma = numero1 + numero2;
   let resta = numero1 - numero2;
   let multplicación = numero1 * numero2;
