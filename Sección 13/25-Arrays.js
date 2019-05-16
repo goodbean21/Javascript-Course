@@ -1,3 +1,3 @@
 'use strict'
 
-// Arrays
+// Arrays: Es una colección de tipos de datos
