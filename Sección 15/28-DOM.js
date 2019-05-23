@@ -7,7 +7,12 @@ function cambiarColor(color = "white"){
 
 }
 
-let caja = document.getElementById("micaja");
+// Seleción de elemento por id
+// let caja = document.getElementById("micaja");
+
+// Selector con querySelector
+let caja = document.querySelector("#micaja");
+
 let textoDeLaCaja = caja.innerHTML;     // Obtiene el texto interno del objeto DOM
 console.log(textoDeLaCaja);
 
