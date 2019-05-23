@@ -20,6 +20,7 @@ while(ind >= 0){
   ind = películas.indexOf(prompt("Cuál película quieres borrar: ", películas[0]));
   películas.splice(ind, 1);
 }
+
 // Sorting de arrays
 películas.sort();     // En orden alfabetico
 películas.reverse();  // Cambiar el indice del final por el
@@ -32,4 +33,7 @@ var cadena = películas.join()
 console.log(cadena);               // Array to String
 console.log(cadena.split(","));   // String to Array
 
-// Sorting de arrays
+// Busqueda dentro de un array
+var busqueda = películas.find((elemento) => elemento == películas[3]);
+
+console.log(busqueda);
