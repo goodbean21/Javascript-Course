@@ -36,5 +36,19 @@ console.log(todoLosDivs[2].textContent);
 todoLosDivs[2].innerHTML = "Nuevo Texto";
 console.log(todoLosDivs[2].textContent);
 
-
 // Conseguir elementos por clase
+var divsRojos = document.getElementsByClassName('rojo');
+for(let div in divsRojos)
+  if(divsRojos[div].className == "rojo") divsRojos[div].style.background = "red";
+
+var divsAmarillos = document.getElementsByClassName('amarillo');
+for(let div in divsAmarillos){
+  if(divsAmarillos[div].className == "amarillo") divsAmarillos[div].style.background = "yellow";
+}
+
+// Query Selector
+var id = document.querySelector("#encabezado");
+console.log(id);
+
+var claseRojo = document.querySelector(".rojo");
+console.log(claseRojo);
